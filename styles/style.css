@@ -49,3 +49,20 @@
         }
         .paragraph{margin-right: 20px !important;}
     }
+
+    .name{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        font-family: var(--font-family);
+    }
+    .skills{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        color: #6c757d;
+        font-family:var(--font-family) ;}
+    .project-image{
+        margin: 0 auto;
+        max-width: 400px;
+    }
