@@ -1,0 +1,41 @@
+
+:root{
+
+    --font-family:'Poppins', sans-serif;
+    --heading:'Playfair Display', serif;
+    --button:#6c63ff;
+}
+
+.btn{background-color: var(--button);}
+.myphoto{
+    max-width: 448px;
+    height: auto;
+   }
+    .myphotoimage{
+        border-radius: 30px;
+    }
+.aboutme{
+    text-align: start;
+    margin: 30px;}
+.heading{
+    font-family: var(--heading);
+    color: #000000;
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 700px;}
+.frontend{
+    line-height: 22px;
+    font-size: 18px;
+    font-family: var(--font-family);
+    font-weight: 700;}
+.paragraph{
+    color: #212529;
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height:30px;}
+    @media (max-width:600px) {
+        .heading{
+            font-size: 50px;
+        }
+        
+    }
