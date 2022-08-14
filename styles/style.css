@@ -5,7 +5,7 @@
     --heading:'Playfair Display', serif;
     --button:#6c63ff;
 }
-.about{
+.content-container{
     padding: 160px 20px;
 }
 .btn{background-color: var(--button);}
@@ -16,7 +16,7 @@
     .myphotoimage{
         border-radius: 30px;
     }
-.aboutme{
+.content{
     text-align: start;
     margin: 30px;}
 .heading{
@@ -40,9 +40,9 @@
             font-size: 50px;
             line-height: 40px;
         }
-        .aboutme{text-align: center;
+        .content{text-align: center;
         }
-        .about{padding: 50px 20px;}
+        .content-container{padding: 50px 20px;}
         .myphoto{
         margin: 0 auto;
         
