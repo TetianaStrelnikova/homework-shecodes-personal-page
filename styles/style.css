@@ -7,6 +7,7 @@
 }
 .content-container{
     padding: 160px 20px;
+    background-color: #F9F7FE;
 }
 .btn{background-color: var(--button);}
 .myphoto{
@@ -41,15 +42,25 @@ p{
             line-height: 40px;
         }
         .content{text-align: center;
+        margin-right: 0px !important;
         }
-        .content-container{padding: 50px 20px;}
+        .content-container{
+        padding: 50px 20px;
+       }
+        
+        
         .myphoto{
         margin: 0 auto;
         
         }
         .paragraph{margin-right: 20px !important;}
     }
-
+    @media (max-width:500px){
+        .logo{display: none;}
+        .content{text-align: center;
+            margin-right: 0px !important;
+            }
+    }
     .name{
         font-weight: 700;
         font-size: 24px;
@@ -66,3 +77,31 @@ p{
         margin: 0 auto;
         max-width: 400px;
     }
+
+    .logo{
+        max-width: 120px;
+        height: auto;
+    }
+    nav li{
+        list-style: none;
+        display: inline;
+        line-height: 40px;
+    }
+    nav ul{ margin: 0;
+    padding: 0;}
+    nav{padding: 20px 0;}
+    nav ul li a{
+        text-decoration: none;
+        color: #000000;
+        font-family: var(--font-family);
+        font-size: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    nav a:visited{
+        color: #000000;
+    }
+    nav a:hover,nav li:active{
+        color: var(--button);
+    }
+    
