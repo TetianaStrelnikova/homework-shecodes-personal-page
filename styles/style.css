@@ -4,12 +4,15 @@
     --font-family:'Poppins', sans-serif;
     --heading:'Playfair Display', serif;
     --button:#6c63ff;
+    --background:#F9F7FE;
 }
 .content-container{
     padding: 160px 20px;
-    background-color: #F9F7FE;
+    background-color: var(--background);
 }
-.btn{background-color: var(--button);}
+.btn{background-color: var(--button);
+height: 55px; text-align: center;
+line-height: 40px;}
 .myphoto{
     max-width: 448px;
     height: auto;
@@ -20,7 +23,7 @@
 .content{
     text-align: start;
     margin: 30px;}
-.heading{
+h1{
     font-family: var(--heading);
     color: #000000;
     font-size: 64px;
@@ -37,7 +40,7 @@ p{
     font-size: 16px;
     line-height:30px;}
     @media (max-width:1000px) {
-        .heading{
+        h1{
             font-size: 50px;
             line-height: 40px;
         }
@@ -57,9 +60,7 @@ p{
     }
     @media (max-width:500px){
         .logo{display: none;}
-        .content{text-align: center;
-            margin-right: 0px !important;
-            }
+        
     }
     .name{
         font-weight: 700;
@@ -81,6 +82,7 @@ p{
     .logo{
         max-width: 120px;
         height: auto;
+        opacity: 0.5;
     }
     nav li{
         list-style: none;
@@ -104,4 +106,35 @@ p{
     nav a:hover,nav li:active{
         color: var(--button);
     }
-    
+    .together{
+        
+        background-color: var(--background);
+    }
+    .together a{
+        color: white;
+        text-decoration: none;
+        margin-top: 100px;
+
+    }
+    .icons i{
+        background-color: var(--background);
+        padding: 20px;
+        margin: 20px; font-size: 30px;
+        border-radius: 50%;
+        color: var(--button);
+    }
+    .icons i:hover{
+        background-color: var(--button);
+        color: var(--background);
+    }
+
+    h2{ 
+    font-family: var(--heading);
+    color: #000000;
+    font-size:50px;
+    font-weight: 700px;
+    }
+    .mail{
+        color: var(--button);
+        text-decoration:none; 
+    }
