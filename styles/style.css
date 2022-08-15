@@ -83,6 +83,7 @@ p{
         max-width: 120px;
         height: auto;
         opacity: 0.5;
+        margin-left: 50px;
     }
     nav li{
         list-style: none;
